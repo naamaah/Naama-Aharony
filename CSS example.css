@@ -1,0 +1,18 @@
+*{
+    text-align: center
+    color: blue;
+    font-family: Comic Sans MS;
+    font-size: 15px;
+}
+h1{
+    color: pink;
+    font-size: 25px;
+}
+
+.sumbit{
+    background-color: green
+}
+
+#bigText{
+    background-color: red
+}
