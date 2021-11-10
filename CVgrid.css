@@ -1,0 +1,57 @@
+:root{
+    --lightOrange: rgba(255, 185, 151, 1);
+    --lightPink: rgba(246, 126, 125, 1);
+    --lavender: rgba(132, 59, 98, 1);
+    --darkBlue: rgba(11, 3, 45, 1);
+    --lightPurple: rgba(116, 84, 106, 1);
+}
+
+
+#grid-Container {
+    display: grid;
+    grid-template-areas:
+    'item1 item1 item1 item1'
+    'item2 item3 item3 item3'
+    'item2 item3 item3 item3';
+}
+
+#item1 {
+    grid-area: item1;
+    padding:20px;
+    background-color: var(--lightPink);
+    border: 2px solid black;
+}
+
+#item2 {
+    grid-area: item2;
+    padding:20px;
+    background-color: var(--lightOrange);
+    width: 75%
+    float: left;
+    border: 2px solid black;
+
+}
+#item3 {
+    grid-area: item3;
+    padding:20px;
+    background-color: var(--lightOrange);
+    width: 25%;
+    float: left;
+    border: 2px solid black;
+}
+
+
+body{
+    color: var(--lightPurple);
+    margin: 10px;
+}
+
+/*media*/
+
+@media only screen and (max-width:500px) {
+    body {
+       color: var(--darkBlue)
+    }
+}
+
+
