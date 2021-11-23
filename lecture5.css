@@ -1,0 +1,26 @@
+
+div {
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    height: 20%;
+    font-size: 50px;
+    background-color: yellow;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+img{
+    width: 30%;
+    height:70%;
+}
+
+@keyframes blink {
+    0%{background-color: yellow; }
+    50%{background-color: white;}
+    100%{background-color: yellow;}
+}
